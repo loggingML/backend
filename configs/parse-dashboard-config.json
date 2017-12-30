@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "serverURL": "http://$HOSTNAME$:1337/parse",
+      "databaseURI": "mongodb://localhost:27017/logging_ml_db",
+      "appId": "loggingMLAppID",
+      "masterKey": "loggingMLMasterID",
+      "appName": "loggingML"
+    }
+  ],
+  "users": [
+    {
+      "user":"xinyu",
+      "pass":"xinyu"
+    },
+    {
+      "user":"xuezhi",
+      "pass":"xuezhi"
+    },
+    {
+      "user":"lilu",
+      "pass":"lilu"
+    }
+  ],
+  "useEncryptedPasswords": false,
+  "allowInsecureHTTP": true
+}

@@ -1,4 +1,4 @@
-import {ErrorInfoType} from "./error_types";
+import {ErrorInfoType} from "./types/error_types";
 
 class LoggingMLError extends Error {
     code: number;
@@ -12,4 +12,4 @@ export function error(err: ErrorInfoType) : LoggingMLError {
     return new LoggingMLError(err.code, err.message);
 }
 
-export * from "./error_types";
+export * from "./types/error_types";

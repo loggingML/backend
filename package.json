@@ -11,10 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/keymirror": "^0.1.1",
+    "@types/uws": "^0.13.1",
     "express": "^4.16.2",
+    "keymirror": "^0.1.1",
     "parse": "^1.11.0",
     "parse-dashboard": "^1.1.2",
-    "parse-server": "^2.7.1"
+    "parse-server": "^2.7.1",
+    "uws": "^9.14.0"
   },
   "devDependencies": {
     "@types/express": "^4.11.0",

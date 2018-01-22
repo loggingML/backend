@@ -14,12 +14,8 @@
       "pass":"xinyu"
     },
     {
-      "user":"xuezhi",
-      "pass":"xuezhi"
-    },
-    {
-      "user":"lilu",
-      "pass":"lilu"
+      "user":"daiwei",
+      "pass":"daiwei"
     }
   ],
   "useEncryptedPasswords": false,
